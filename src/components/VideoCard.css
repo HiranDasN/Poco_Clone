@@ -1,0 +1,27 @@
+.circle-container {
+    position: relative;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.148);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.3s ease; 
+}
+
+.circle-container:hover {
+    background-color: rgba(255, 255, 255, 0.536); 
+}
+
+.video-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -138px;
+}
